@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM password-security
 
 RUN useradd -m appuser
 WORKDIR /app
